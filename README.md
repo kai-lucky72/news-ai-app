@@ -34,6 +34,21 @@ A web application that leverages AI to deliver personalized news content.
     npm start
     ```
 
+5. set up the backend
+  ```bash
+  cd backend
+  ```
+6. run the environment project
+  ```bash
+  cd venv/Scripts/activate
+  ```
+
+7. run the backend
+  ``` 
+   cd backend
+   uvicorn main:app --reload
+   ```
+
 ## Contributing
 
 Contributions are welcome! Please open issues or submit pull requests.

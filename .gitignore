@@ -3,3 +3,5 @@
 
 # Ignore venv in backend folder
 /backend/venv/
+config.bat
+node_modules
