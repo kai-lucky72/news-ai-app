@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white text-primary font-sans min-h-screen antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-heading tracking-tight;
+}
+
+.glass {
+  @apply bg-white backdrop-blur-md shadow-glass rounded-xl border border-gray-100;
+}
+
+.glow {
+  @apply shadow-glow;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+  }
+::-webkit-scrollbar-thumb {
+  background: #e5e7eb;
+  border-radius: 8px;
+}
